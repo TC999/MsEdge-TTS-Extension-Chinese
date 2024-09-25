@@ -1,32 +1,32 @@
-# MS Edge TTS Extension (Text to Speech)
+# MS Edge TTS 扩展（文本转语音）
 
-## Description
-This is a Text-to-Speech browser extension that uses MS Edge Online TTS service.
+## 描述
+这是一个使用 MS Edge 在线 TTS 服务的文本到语音浏览器扩展。
 
-## Features
-- ✨ Dark mode is finally here!
-- Natural Sounding Voices
-- Multiple Language Support
-- Context Menu Item
-- Download generated audio file
-- Advanced controls: Rate, Pitch and Volume
-- Generated audio is Free for Personal and Commercial Use
-- User-friendly interface
-- Language and country autocomplete for fast search
+## 特点
+- ✨ 深色模式终于来了！
+- 自然声音的语音
+- 多语言支持
+- 右键菜单项
+- 下载生成的音频文件
+- 高级控制：语速、音调和音量
+- 生成的音频免费用于个人和商业用途
+- 用户友好的界面
+- 语言和国家自动填写，快速搜索
 
-## Installation
-### - Mozilla / Chrome Web Store
-- [Chrome Web Store](https://chrome.google.com/webstore/detail/oajalfneblkfiejoadecnmodfpnaeblh)
-- [Mozilla Addons](https://addons.mozilla.org/en-US/firefox/addon/ms-edge-tts-text-to-speech/)
-### - Manual Installation
-1. Clone this repository and run `npm i`.
-2. Run `npm run build` for Chrome, `npm run build:firefox` for Firefox.
-3. Open your browser's extension settings.
-4. Enable developer mode.
-5. Click on "Load unpacked" and select the extension folder.
-6. The extension should now be installed and ready to use.
+## 安装
+### - Mozilla / Chrome 网上应用店
+- [Chrome 网上应用店](https://chrome.google.com/webstore/detail/oajalfneblkfiejoadecnmodfpnaeblh) 
+- [Mozilla 附加组件](https://addons.mozilla.org/en-US/firefox/addon/ms-edge-tts-text-to-speech/) 
+### - 手动安装
+1. 克隆此仓库并运行 `npm i`。
+2. 运行 `npm run build` 用于 Chrome，`npm run build:firefox` 用于 Firefox。
+3. 打开浏览器的扩展设置。
+4. 启用开发者模式。
+5. 点击“加载未打包的”并选择扩展文件夹。
+6. 扩展现在应该已安装并准备使用。
 
-## Screenshots
+## 截图
 ![MsEdge_TTS_Screenshot_1.png](/screenshots/MsEdge_TTS_Screenshot_1.png)
 ![MsEdge_TTS_Screenshot_2.png](/screenshots/MsEdge_TTS_Screenshot_2.png)
 ![MsEdge_TTS_Screenshot_3.png](/screenshots/MsEdge_TTS_Screenshot_3.png)
@@ -34,11 +34,11 @@ This is a Text-to-Speech browser extension that uses MS Edge Online TTS service.
 ![MsEdge_TTS_Screenshot_5.png](/screenshots/MsEdge_TTS_Screenshot_5.png)
 ![MsEdge_TTS_Screenshot_6.png](/screenshots/MsEdge_TTS_Screenshot_6.png)
 
-## Attribution
-The extension icon is created by <a href="https://www.flaticon.com/free-icons/loud-speaker" title="loud speaker icons">Loud speaker icons created by Uniconlabs - Flaticon</a>
+## 致谢
+扩展图标由 <a href="https://www.flaticon.com/free-icons/loud-speaker"  title="loud speaker icons">Uniconlabs - Flaticon 创建的扩音器图标</a>
 
-## Contact
-If you have any questions or suggestions, feel free to contact the project maintainer at [yacine.web.ext@gmail.com](mailto:yacine.web.ext@gmail.com).
+## 联系方式
+如果您有任何问题或建议，请随时联系项目维护者 [yacine.web.ext@gmail.com](mailto:yacine.web.ext@gmail.com)。
 
-## Contributing
-Contributions are welcome! If you have any ideas or improvements, please submit a pull request.
+## 贡献
+欢迎贡献！如果您有任何想法或改进，请提交拉取请求。
