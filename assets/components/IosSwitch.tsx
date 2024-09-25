@@ -59,7 +59,7 @@ export default function IosSwitch(props: any) {
 	return (
 		<Stack width={'50%'} direction={"row"} spacing={1} alignItems={"center"}>
 			<IOSSwitch sx={{ m: 1 }} checked={checked} onChange={onChange} />
-			<Typography variant="h5">Support Developer ☕</Typography>
+			<Typography variant="h5">支持开发者 ☕</Typography>
 		</Stack>
 	);
 }

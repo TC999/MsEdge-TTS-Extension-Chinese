@@ -72,17 +72,17 @@ function App() {
 				<Box sx={{ '& > *': { padding: '10px' } }}>
 					<IosSwitch checked={switchChecked} onChange={handleSwitchChange} />
 					<Typography variant="body2" textAlign={'justify'} sx={{ fontSize: 'large', lineHeight: '1.75rem' }} >
-						By opting in to Mellowtel, you support the extension you are using and ensure that the team behind it can keep maintaining and improving the product.
+					    通过选择加入Mellowtel，您将支持您正在使用的扩展程序，并确保其背后的团队能够持续维护并改进产品。
 						<br />
-						Mellowtel is an open-source package that helps browser extension creators monetize their work.
+						Mellowtel是一个开源软件包，它帮助浏览器扩展创建者将其工作货币化。
 						<br />
-						The library lets you share your unused internet with trusted AI labs & startups who use it to train their models. The developer of this extension gets a small share of the revenue.
+						该库允许您与受信任的人工智能实验室和初创公司共享未使用的互联网，他们用它来训练他们的模型。这个扩展程序的开发者会获得一小部分收入。
 						<br />
-						In case you change your mind, you can opt out at any time.
+						如果您改变主意，您可以随时选择退出。
 						<br />
-						Mellowtel shares your bandwidth only. Security and privacy are 100% guaranteed and the library is open source for everyone to see. It doesn’t collect, share, or sell personal information (not even anonymized data).
+						Mellowtel仅共享您的带宽。安全性和隐私性100%有保障，该库是开源的，任何人都可以查看。它不会收集、共享或出售个人信息（即使是匿名数据）。
 						<br />
-						It’s also highly regulated: We keep communicating with Chrome Web Store regulators in order to guarantee a safe experience. Mellowtel provides CWS regulators with tools to monitor and enforce compliance.
+						它也受到高度监管：我们持续与Chrome Web Store的监管者沟通，以确保提供安全的体验。Mellowtel向CWS监管者提供工具，以监控和执行合规性。
 					</Typography>
 				</Box>
 			</Box>

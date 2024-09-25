@@ -209,21 +209,21 @@ function App() {
             <ButtonAppBar menuClick={() => toggleDrawer(true)} toggleColorMode={colorMode.toggleColorMode} colorMode={theme.palette.mode} />
             <Grid container margin={1} rowSpacing={2} columns={1}>
                 <Grid xs={1}>
-                    <SelectAutocomplete options={languages} label="Language" loading={voicesLoading} value={voiceState.language} onChange={(e: any, value: string) => handleChange(value, 'select_language')} />
+                    <SelectAutocomplete options={languages} label="语言" loading={voicesLoading} value={voiceState.language} onChange={(e: any, value: string) => handleChange(value, 'select_language')} />
                 </Grid>
                 <Grid xs={1}>
-                    <SelectAutocomplete options={countries} label="Country" value={voiceState.country} onChange={(e: any, value: string) => handleChange(value, 'select_country')} isDisabled={!voiceState.language.length} />
+                    <SelectAutocomplete options={countries} label="国家和地区" value={voiceState.country} onChange={(e: any, value: string) => handleChange(value, 'select_country')} isDisabled={!voiceState.language.length} />
                 </Grid>
                 <Grid xs={1}>
-                    <SelectAutocomplete options={Object.keys(voices)} label="Voice" value={voiceState.voice && voiceState.voice.name} onChange={(e: any, value: string) => handleChange(voices[value], 'select_voice')} isDisabled={!voiceState.country.length} />
+                    <SelectAutocomplete options={Object.keys(voices)} label="音色" value={voiceState.voice && voiceState.voice.name} onChange={(e: any, value: string) => handleChange(voices[value], 'select_voice')} isDisabled={!voiceState.country.length} />
                 </Grid>
                 <Grid xs={1}>
                     <TextField
                         value={text}
                         onChange={handleTextChange}
                         fullWidth
-                        label='Text'
-                        placeholder='Enter text to be spoken'
+                        label='文本'
+                        placeholder='键入播放文本'
                         multiline
                         minRows={3}
                         maxRows={20}
@@ -237,7 +237,7 @@ function App() {
                         fullWidth
                         onClick={handleSubmit}
                     >
-                        Generate Audio
+                        生成音频
                     </Button>
                 </Grid>
                 <Grid xs={1}>

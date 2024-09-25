@@ -19,8 +19,8 @@
 - [Chrome 网上应用店](https://chrome.google.com/webstore/detail/oajalfneblkfiejoadecnmodfpnaeblh) 
 - [Mozilla 附加组件](https://addons.mozilla.org/en-US/firefox/addon/ms-edge-tts-text-to-speech/) 
 ### - 手动安装
-1. 克隆此仓库并运行 `npm i`。
-2. 运行 `npm run build` 用于 Chrome，`npm run build:firefox` 用于 Firefox。
+1. 克隆此仓库并运行 `pnpm i`。
+2. 运行 `pnpm run build` 用于 Chrome，`pnpm run build:firefox` 用于 Firefox。
 3. 打开浏览器的扩展设置。
 4. 启用开发者模式。
 5. 点击“加载未打包的”并选择扩展文件夹。
